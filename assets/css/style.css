@@ -252,3 +252,11 @@ form button:hover {
     text-align: justify;
     font-weight: 600;
 }
+
+/* quando a tela tiver o tamanho maximo de 600px de largura, usar as regras abaixo*/
+@media (max-width: 600px) {
+    #conteudo {
+        flex-direction: colum;
+        align-items: center;
+    }
+}
