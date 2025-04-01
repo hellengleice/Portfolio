@@ -46,4 +46,4 @@ formulario.addEventListener('submit', function(event) {
     campoSubject.value = ''
     campoMessage.value = ''
 
-  });
+}); 
